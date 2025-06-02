@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hướng dẫn sử dụng phần mềm quản lý cửa hàng nước giải khát</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  nav {
+    width: 320px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  nav h2 {
+    margin-top: 0;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  nav ul li {
+    margin: 12px 0;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+  }
+  main {
+    flex-grow: 1;
+    padding: 30px;
+    overflow-y: auto;
+  }
+  h1 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <h2>Hướng dẫn chức năng</h2>
+    <ul>
+        <li><a href="#" class="active" data-section="tongquan">Tổng quan</a></li>
+        <li><a href="#" data-section="quanlysanpham">Quản lý sản phẩm</a></li>
+        <li><a href="#" data-section="taohoadon">Tạo hóa đơn</a></li>
+        <li><a href="#" data-section="hoadon">Hóa đơn</a></li>
+        <li><a href="#" data-section="nhacungcap">Nhà cung cấp</a></li>
+        <li><a href="#" data-section="loaisanpham">Loại sản phẩm</a></li>
+        <li><a href="#" data-section="khachhang">Khách hàng</a></li>
+        <li><a href="#" data-section="nhanvien">Nhân viên</a></li>
+        <li><a href="#" data-section="phieuthutien">Phiếu thu tiền</a></li>
+        <li><a href="#" data-section="congno">Công nợ</a></li>
+        <li><a href="#" data-section="thongkedonvi">Thống kê doanh thu</a></li>
+        <li><a href="#" data-section="thongkesanpham">Thống kê sản phẩm</a></li>
+        <li><a href="#" data-section="dangnhap">Đăng nhập</a></li>
+        
+        <li><a href="#" data-section="doimatkhau">Đổi mật khẩu</a></li>        
+    </ul>
+</nav>
+
+<main>
+    <section id="tongquan" class="section" style="display:block;">
+        <h1>Tổng quan về phần mềm quản lý cửa hàng nước giải khát</h1>
+      
+        <img src="images/bubble-tea.ico" alt="Phần mềm quản lý cửa hàng nước giải khát" style="max-width:100%; height:auto; margin-bottom:20px; border-radius:8px;" />
+      
+        <p>Phần mềm quản lý cửa hàng nước giải khát được thiết kế nhằm hỗ trợ các chủ cửa hàng và nhân viên quản lý toàn diện các hoạt động kinh doanh, từ quản lý sản phẩm, tồn kho, hóa đơn đến công nợ và nhân viên.</p>
+      
+        <h2>Điểm nổi bật của phần mềm:</h2>
+        <ul>
+          <li><strong>Quản lý sản phẩm chính xác:</strong> Giúp theo dõi chi tiết thông tin sản phẩm, giá bán, số lượng tồn kho để không bao giờ bị thiếu hàng.</li>
+          <li><strong>Quản lý đơn hàng và hóa đơn:</strong> Dễ dàng tạo hóa đơn bán lẻ và bán sỉ, quản lý thanh toán và in ấn nhanh chóng.</li>
+          <li><strong>Quản lý công nợ và phiếu thu tiền:</strong> Theo dõi công nợ khách hàng mua sỉ, hỗ trợ thanh toán linh hoạt và quản lý phiếu thu hiệu quả.</li>
+          <li><strong>Báo cáo và thống kê:</strong> Cung cấp các báo cáo doanh thu, thống kê sản phẩm bán chạy để bạn đưa ra quyết định kinh doanh đúng đắn.</li>
+          <li><strong>Phân quyền người dùng:</strong> Bảo mật thông tin với các cấp quyền dành cho nhân viên, quản lý, kế toán và bộ phận kinh doanh.</li>
+        </ul>
+      
+        <h2>Giao diện thân thiện và dễ sử dụng</h2>
+        <p>Phần mềm có giao diện trực quan, giúp nhân viên dễ dàng thao tác và giảm thiểu sai sót trong quá trình quản lý. Ngoài ra, hệ thống được tối ưu để vận hành mượt mà trên các thiết bị phổ biến.</p>
+        <p>Giao diện đăng nhập đơn giản, bảo mật cao, giúp người dùng nhanh chóng truy cập vào hệ thống với trải nghiệm mượt mà trên mọi thiết bị.</p>
+        <img src="images/giao_dien_1.jpg" alt="Giao diện phần mềm dn" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+      
+        <p>Giao diện đổi mật khẩu thân thiện, hỗ trợ người dùng cập nhật thông tin bảo mật một cách nhanh chóng và an toàn.</p>
+        <img src="images/giao_dien_dmk.jpg" alt="Giao diện phần mềm dmk" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện phân loại sản phẩm được thiết kế rõ ràng, giúp người dùng dễ dàng quản lý và nhóm các mặt hàng theo từng loại, hỗ trợ quá trình thống kê và báo cáo chính xác hơn.</p>
+        <img src="images/giao_dien_lsp.jpg" alt="Giao diện phần mềm dmk" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />    
+
+        <p>Giao diện quản lý sản phẩm được thiết kế trực quan, giúp người dùng dễ dàng thêm, sửa, xóa và theo dõi các mặt hàng trong kho. Tất cả thông tin được cập nhật nhanh chóng, giảm thiểu sai sót và tiết kiệm thời gian quản lý.</p>
+        <img src="images/giao_dien_sp.jpg" alt="Giao diện phần mềm sp" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện quản lý nhà cung cấp thân thiện, giúp cập nhật thông tin liên hệ, lịch sử cung cấp hàng hóa và các bảng báo giá nhanh chóng, hỗ trợ tối đa quá trình đàm phán và nhập hàng.</p>
+        <img src="images/giao_dien_ncc.jpg" alt="Giao diện phần mềm ncc" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện quản lý khách hàng thân thiện, hỗ trợ cập nhật thông tin chi tiết và lịch sử mua hàng, giúp bộ phận bán hàng chăm sóc khách hàng hiệu quả và tăng sự hài lòng.</p>
+        <img src="images/giao_dien_nkh.jpg" alt="Giao diện phần mềm kh" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Phần mềm hỗ trợ tạo hóa đơn nhanh chóng với giao diện đơn giản, giúp nhân viên dễ dàng lựa chọn sản phẩm, số lượng và phương thức thanh toán. Tính năng tự động tính toán tổng tiền giúp đảm bảo độ chính xác cao trong quá trình bán hàng.</p>
+        <img src="images/giao_dien_thd.jpg" alt="Giao diện phần mềm thd" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện quản lý hóa đơn cho phép người dùng tra cứu, chỉnh sửa và in hóa đơn một cách thuận tiện. Hệ thống lưu trữ toàn bộ lịch sử giao dịch giúp việc quản lý và báo cáo trở nên dễ dàng hơn.</p>
+        <img src="images/giao_dien_hd.jpg" alt="Giao diện phần mềm hd" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Chức năng in hóa đơn giúp nhân viên nhanh chóng xuất hóa đơn bán hàng với định dạng chuẩn, rõ ràng và dễ đọc. Giao diện in hỗ trợ tùy chỉnh các thông tin hiển thị như tên cửa hàng, logo, danh sách sản phẩm, số lượng, đơn giá, tổng tiền và thông tin khách hàng. Việc in ấn hóa đơn giúp lưu trữ hồ sơ và tạo sự tin cậy với khách hàng trong quá trình giao dịch.</p>
+        <img src="images/giao_dien_inhd.jpg" alt="Giao diện phần mềm inhd" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Chức năng in phiếu thu tiền giúp ghi nhận các khoản thanh toán từ khách hàng một cách chính xác và minh bạch. Phiếu thu tiền được thiết kế bao gồm các thông tin quan trọng như mã phiếu, ngày thu, số tiền thu, tên nhân viên thu tiền và ghi chú. Việc in phiếu thu tiền hỗ trợ quản lý tài chính dễ dàng và là bằng chứng pháp lý trong quá trình thanh toán.</p>
+        <img src="images/giao_dien_inptt.jpg" alt="Giao diện phần mềm inptt" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện tạo và quản lý phiếu thu tiền được thiết kế tối ưu, giúp nhân viên dễ dàng ghi nhận các khoản thu từ khách hàng, đảm bảo tính chính xác và minh bạch trong thu chi.</p>
+        <img src="images/giao_dien_ptt.jpg" alt="Giao diện phần mềm ptt" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Phần mềm cung cấp giao diện quản lý công nợ trực quan, giúp theo dõi các khoản phải thu và trạng thái thanh toán, hỗ trợ bộ phận kinh doanh nắm bắt tình hình tài chính kịp thời.</p>
+        <img src="images/giao_dien_cn.jpg" alt="Giao diện phần mềm cn" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Giao diện báo cáo doanh thu rõ ràng, trực quan với các biểu đồ và số liệu chi tiết, giúp người quản lý đánh giá hiệu quả kinh doanh và đưa ra các quyết định phù hợp.</p>
+        <img src="images/giao_dien_tkdt.jpg" alt="Giao diện phần mềm tkdt" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+        <p>Phần mềm cung cấp báo cáo thống kê sản phẩm bán chạy, tồn kho và xu hướng thị trường, hỗ trợ tối ưu hóa nguồn hàng và kế hoạch nhập kho.</p>
+        <img src="images/giao_dien_tksp.jpg" alt="Giao diện phần mềm tksp" style="max-width:90%; height:auto; margin-top:10px; border-radius:8px;" />
+
+
+
+        <p>Nếu bạn có bất kỳ thắc mắc hoặc cần hỗ trợ, vui lòng truy cập vào các phần hướng dẫn chi tiết hoặc liên hệ bộ phận kỹ thuật.</p>
+    </section>
+      
+    
+    <section id="quanlysanpham" class="section" style="display:none;">
+        <h1>Quản lý sản phẩm</h1>
+        <p>Chức năng Quản lý sản phẩm cho phép bạn thêm mới, chỉnh sửa, xóa và xem thông tin chi tiết của các mặt hàng nước giải khát trong cửa hàng.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Thêm sản phẩm mới:</strong> Nhập thông tin tên sản phẩm, loại, mô tả, giá bán và số lượng tồn kho.</li>
+          <li><strong>Sửa sản phẩm:</strong> Cập nhật các thông tin như giá, mô tả hoặc số lượng tồn kho khi cần thiết.</li>
+          <li><strong>Xóa sản phẩm:</strong> Loại bỏ sản phẩm không còn kinh doanh khỏi danh sách.</li>
+          <li><strong>Xem thông tin chi tiết:</strong> Hiển thị đầy đủ dữ liệu sản phẩm để quản lý dễ dàng theo dõi.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện Quản lý sản phẩm</h2>
+        <img src="images/giao_dien_sp.jpg" alt="Giao diện quản lý sản phẩm" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện, dễ sử dụng với các bảng điều khiển rõ ràng giúp bạn thao tác nhanh chóng và chính xác.</p>
+      </section>
+      
+
+      <section id="taohoadon" class="section" style="display:none;">
+        <h1>Tạo hóa đơn</h1>
+        <p>Chức năng tạo hóa đơn giúp bạn lập nhanh các đơn hàng bán lẻ hoặc bán sỉ cho khách hàng với đầy đủ thông tin cần thiết.</p>
+      
+        <h2>Các bước tạo hóa đơn:</h2>
+        <ul>
+          <li><strong>Chọn khách hàng:</strong> Lựa chọn hoặc nhập thông tin khách hàng cho hóa đơn.</li>
+          <li><strong>Thêm sản phẩm:</strong> Chọn các mặt hàng từ danh sách sản phẩm, nhập số lượng và đơn giá.</li>
+          <li><strong>Xem tổng tiền:</strong> Hệ thống tự động tính tổng giá trị đơn hàng.</li>
+          
+          <li><strong>Lưu và in hóa đơn:</strong> Lưu thông tin hóa đơn và xuất bản in ngay khi hoàn tất.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện tạo hóa đơn</h2>
+        <img src="images/giao_dien_thd.jpg" alt="Giao diện tạo hóa đơn" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện giúp nhân viên dễ dàng thao tác, giảm thiểu sai sót và rút ngắn thời gian tạo hóa đơn.</p>
+      </section>
+      
+
+      <section id="hoadon" class="section" style="display:none;">
+        <h1>Hóa đơn</h1>
+        <p>Chức năng Hóa đơn cho phép bạn tra cứu, quản lý và xử lý các hóa đơn đã tạo trong hệ thống một cách hiệu quả.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Tra cứu hóa đơn:</strong> Tìm kiếm hóa đơn theo mã, ngày lập, khách hàng và nhân viên lập</li>
+          <li><strong>Xem chi tiết hóa đơn:</strong> Hiển thị đầy đủ thông tin sản phẩm, số lượng, đơn giá và tổng tiền.</li>
+          
+          <li><strong>Lưu trữ và in hóa đơn:</strong> Lưu thông tin hóa đơn đã thanh toán và hỗ trợ in ấn nhanh chóng.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý hóa đơn</h2>
+        <img src="images/giao_dien_hd.jpg" alt="Giao diện quản lý hóa đơn" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện với bảng điều khiển rõ ràng giúp bạn dễ dàng quản lý và theo dõi trạng thái các hóa đơn trong cửa hàng.</p>
+      </section>
+      
+
+      <section id="nhacungcap" class="section" style="display:none;">
+        <h1>Nhà cung cấp</h1>
+        <p>Chức năng Quản lý nhà cung cấp giúp bạn lưu trữ và cập nhật thông tin chi tiết về các đối tác cung cấp hàng hóa cho cửa hàng.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Thêm nhà cung cấp mới:</strong> Nhập đầy đủ thông tin như tên, địa chỉ, số điện thoại, email và ghi chú.</li>
+          <li><strong>Sửa thông tin nhà cung cấp:</strong> Cập nhật các thông tin liên hệ hoặc thay đổi dữ liệu khi có sự thay đổi từ đối tác.</li>
+          <li><strong>Tra cứu nhà cung cấp:</strong> Tìm kiếm và lọc danh sách nhà cung cấp dựa trên tên hoặc thông tin liên quan.</li>
+          
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý nhà cung cấp</h2>
+        <img src="images/giao_dien_ncc.jpg" alt="Giao diện quản lý nhà cung cấp" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện trực quan, dễ thao tác giúp bạn quản lý các nhà cung cấp hiệu quả, đảm bảo nguồn hàng luôn được cung ứng đầy đủ và kịp thời.</p>
+      </section>
+      
+      <section id="loaisanpham" class="section" style="display:none;">
+        <h1>Loại sản phẩm</h1>
+        <p>Chức năng quản lý loại sản phẩm giúp phân nhóm các mặt hàng nước giải khát theo từng danh mục cụ thể, từ đó dễ dàng theo dõi và quản lý.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Thêm loại sản phẩm mới:</strong> Tạo danh mục sản phẩm mới với tên và mô tả rõ ràng.</li>
+          <li><strong>Sửa loại sản phẩm:</strong> Cập nhật thông tin tên hoặc mô tả loại sản phẩm khi cần thiết.</li>
+          <li><strong>Xóa loại sản phẩm:</strong> Loại bỏ các danh mục không còn sử dụng để giữ dữ liệu gọn gàng.</li>
+          <li><strong>Phân loại sản phẩm:</strong> Gán sản phẩm vào các loại phù hợp giúp hệ thống quản lý chính xác và dễ dàng thống kê.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý loại sản phẩm</h2>
+        <img src="images/giao_dien_lsp.jpg" alt="Giao diện quản lý loại sản phẩm" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện đơn giản, dễ sử dụng giúp bạn nhanh chóng thêm và chỉnh sửa các loại sản phẩm, nâng cao hiệu quả quản lý cửa hàng.</p>
+      </section>
+      
+
+      <section id="khachhang" class="section" style="display:none;">
+        <h1>Khách hàng</h1>
+        <p>Chức năng quản lý khách hàng giúp bạn ghi nhận, theo dõi và cập nhật thông tin chi tiết về khách hàng, bao gồm cả khách hàng lẻ và khách hàng sỉ.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Thêm khách hàng mới:</strong> Nhập đầy đủ thông tin như họ tên, giới tính, địa chỉ, số điện thoại và email để tạo hồ sơ khách hàng.</li>
+          <li><strong>Sửa thông tin khách hàng:</strong> Cập nhật các thông tin liên hệ hoặc thay đổi dữ liệu khi có sự thay đổi từ khách hàng.</li>
+          <li><strong>Xóa khách hàng:</strong> Loại bỏ những khách hàng không còn hoạt động để dữ liệu được sạch và dễ quản lý.</li>
+          <li><strong>Tra cứu khách hàng:</strong> Tìm kiếm khách hàng theo tên, số điện thoại hoặc mã khách hàng một cách nhanh chóng.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý khách hàng</h2>
+        <img src="images/giao_dien_kh.jpg" alt="Giao diện quản lý khách hàng" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện, dễ sử dụng giúp nhân viên chăm sóc khách hàng hiệu quả, nâng cao chất lượng dịch vụ và giữ chân khách hàng.</p>
+      </section>
+      
+      <section id="nhanvien" class="section" style="display:none;">
+        <h1>Nhân viên</h1>
+        <p>Chức năng quản lý nhân viên giúp bạn lưu trữ và cập nhật thông tin chi tiết về các nhân viên trong cửa hàng, bao gồm phân quyền và quản lý tài khoản đăng nhập.</p>
+      
+        <h2>Các thao tác chính:</h2>
+        <ul>
+          <li><strong>Thêm nhân viên mới:</strong> Nhập thông tin cá nhân như họ tên, số điện thoại, địa chỉ, chức vụ và thông tin đăng nhập.</li>
+          <li><strong>Sửa thông tin nhân viên:</strong> Cập nhật các thông tin liên quan đến chức vụ hoặc thông tin cá nhân khi có sự thay đổi.</li>
+          <li><strong>Xóa nhân viên:</strong> Loại bỏ nhân viên không còn làm việc để đảm bảo dữ liệu luôn chính xác và an toàn.</li>
+          <li><strong>Phân quyền chức vụ:</strong> Thiết lập quyền hạn sử dụng phần mềm dựa trên vai trò của từng nhân viên (quản lý, bán hàng, kho, kinh doanh,...).</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý nhân viên</h2>
+        <img src="images/giao_dien_nv.jpg" alt="Giao diện quản lý nhân viên" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện, dễ thao tác giúp người quản lý nhanh chóng theo dõi và điều phối công việc của từng nhân viên một cách hiệu quả.</p>
+      </section>
+      
+      <section id="phieuthutien" class="section" style="display:none;">
+        <h1>Phiếu thu tiền</h1>
+        <p>Chức năng Phiếu thu tiền giúp bạn tạo và quản lý các phiếu thu tiền từ khách hàng sau khi thực hiện thanh toán, đảm bảo ghi nhận chính xác các khoản thu chi.</p>
+      
+        <h2>Các bước tạo phiếu thu tiền:</h2>
+        <ul>
+          <li><strong>Chọn hóa đơn cần thu tiền:</strong> Lựa chọn hóa đơn liên quan đến khách hàng để lập phiếu thu.</li>
+          <li><strong>Nhập thông tin phiếu thu:</strong> Ghi rõ số tiền thu, ngày thu, ghi chú và nhân viên lập phiếu.</li>
+          <li><strong>Xác nhận số tiền thu:</strong> Đảm bảo số tiền thu không vượt quá số tiền còn nợ của khách hàng.</li>
+          <li><strong>Lưu và in phiếu thu:</strong> Lưu thông tin và xuất phiếu thu để khách hàng và cửa hàng lưu trữ.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện tạo phiếu thu tiền</h2>
+        <img src="images/giao_dien_ptt.jpg" alt="Giao diện phiếu thu tiền" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện đơn giản, thân thiện giúp nhân viên dễ dàng thao tác, đồng thời đảm bảo tính chính xác và minh bạch trong quản lý tài chính.</p>
+      </section>
+      
+
+      <section id="congno" class="section" style="display:none;">
+        <h1>Công nợ</h1>
+        <p>Chức năng quản lý công nợ giúp bạn theo dõi số tiền khách hàng còn phải trả, cập nhật trạng thái công nợ và đảm bảo quản lý tài chính chính xác.</p>
+      
+        <h2>Các tính năng chính:</h2>
+        <ul>
+          <li><strong>Theo dõi công nợ:</strong> Xem tổng số tiền phải trả, số tiền đã thanh toán và số tiền còn lại của từng khách hàng.</li>
+          <li><strong>Cập nhật công nợ:</strong> Ghi nhận các khoản thanh toán mới và tự động cập nhật số dư công nợ.</li>
+          <li><strong>Quản lý trạng thái:</strong> Phân loại công nợ theo trạng thái như "Đã thanh toán", "Còn nợ" hoặc "Quá hạn".</li>
+          
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện quản lý công nợ</h2>
+        <img src="images/giao_dien_cn.jpg" alt="Giao diện quản lý công nợ" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện trực quan và dễ sử dụng giúp bạn kiểm soát tốt tình hình tài chính và hỗ trợ công tác thu hồi công nợ hiệu quả.</p>
+      </section>
+      
+
+      <section id="thongkedonvi" class="section" style="display:none;">
+        <h1>Thống kê doanh thu</h1>
+        <p>Chức năng Thống kê doanh thu giúp bạn theo dõi và phân tích doanh số bán hàng của cửa hàng theo các khoảng thời gian khác nhau như ngày, tuần, tháng và năm.</p>
+      
+        <h2>Các tính năng chính:</h2>
+        <ul>
+          <li><strong>Xem báo cáo doanh thu:</strong> Hiển thị số liệu doanh thu tổng hợp theo các mốc thời gian đã chọn.</li>
+          <li><strong>Phân tích xu hướng:</strong> Cung cấp biểu đồ trực quan giúp nhận biết xu hướng doanh thu, hỗ trợ ra quyết định kinh doanh.</li>
+          
+          <li><strong>Xuất báo cáo:</strong> Hỗ trợ xuất báo cáo dưới các định dạng phổ biến như PDF, Excel để lưu trữ và chia sẻ.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện thống kê doanh thu</h2>
+        <img src="images/giao_dien_tkdt.jpg" alt="Giao diện thống kê doanh thu" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện trực quan, thân thiện giúp bạn dễ dàng theo dõi hiệu quả kinh doanh và điều chỉnh chiến lược phù hợp.</p>
+      </section>
+      
+
+      <section id="thongkesanpham" class="section" style="display:none;">
+        <h1>Thống kê sản phẩm</h1>
+        <p>Chức năng Thống kê sản phẩm giúp bạn tổng hợp và phân tích số lượng sản phẩm đã bán, tồn kho hiện tại và các chỉ số quan trọng khác để quản lý kho hiệu quả.</p>
+      
+        <h2>Các tính năng chính:</h2>
+        <ul>
+          
+          <li><strong>Theo dõi tồn kho:</strong> Hiển thị số lượng tồn kho hiện tại, giúp phát hiện kịp thời các sản phẩm sắp hết hàng.</li>
+          <li><strong>Phân tích xu hướng:</strong> Hỗ trợ đánh giá xu hướng tiêu thụ sản phẩm để điều chỉnh nhập hàng phù hợp.</li>
+          <li><strong>Xuất báo cáo chi tiết:</strong> Hỗ trợ xuất báo cáo dưới nhiều định dạng để lưu trữ và báo cáo quản lý.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện thống kê sản phẩm</h2>
+        <img src="images/giao_dien_tksp.jpg" alt="Giao diện thống kê sản phẩm" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện thân thiện và dễ thao tác giúp bạn theo dõi sát sao tình hình sản phẩm, từ đó tối ưu hóa việc quản lý kho và kinh doanh.</p>
+      </section>
+      
+
+      <section id="dangnhap" class="section" style="display:none;">
+        <h1>Đăng nhập</h1>
+        <p>Chức năng đăng nhập cho phép người dùng truy cập vào hệ thống bằng tài khoản và mật khẩu được cấp, đảm bảo an toàn và bảo mật thông tin.</p>
+      
+        <h2>Các bước đăng nhập:</h2>
+        <ul>
+          <li><strong>Nhập tên đăng nhập:</strong> Nhập chính xác tên tài khoản đã được cấp bởi quản lý.</li>
+          <li><strong>Nhập mật khẩu:</strong> Nhập mật khẩu tương ứng với tài khoản.</li>
+          <li><strong>Nhấn nút Đăng nhập:</strong> Hệ thống kiểm tra thông tin và cho phép truy cập nếu đúng.</li>
+          <li><strong>Thông báo lỗi:</strong> Nếu thông tin sai, hệ thống sẽ hiển thị thông báo yêu cầu nhập lại.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện đăng nhập</h2>
+        <img src="images/giao_dien_1.jpg" alt="Giao diện đăng nhập" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Giao diện đơn giản, thân thiện giúp người dùng dễ dàng thao tác và nhanh chóng truy cập vào các chức năng của phần mềm.</p>
+      </section>
+      
+
+
+      <section id="doimatkhau" class="section" style="display:none;">
+        <h1>Đổi mật khẩu</h1>
+        <p>Chức năng đổi mật khẩu cho phép bạn cập nhật mật khẩu tài khoản một cách dễ dàng và an toàn, giúp bảo vệ thông tin cá nhân và dữ liệu hệ thống.</p>
+      
+        <h2>Các bước đổi mật khẩu:</h2>
+        <ul>
+          <li><strong>Nhập mật khẩu cũ:</strong> Để xác nhận bạn là chủ tài khoản.</li>
+          <li><strong>Nhập mật khẩu mới:</strong> Chọn mật khẩu mới đủ mạnh, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt.</li>
+          <li><strong>Xác nhận mật khẩu mới:</strong> Nhập lại mật khẩu mới để tránh sai sót.</li>
+          <li><strong>Nhấn nút “Đổi mật khẩu”:</strong> Hệ thống sẽ kiểm tra và cập nhật mật khẩu mới nếu hợp lệ.</li>
+          <li><strong>Thông báo thành công:</strong> Bạn sẽ nhận được thông báo khi đổi mật khẩu thành công.</li>
+        </ul>
+      
+        <h2>Hình ảnh minh họa giao diện đổi mật khẩu</h2>
+        <img src="images/giao_dien_dmk.jpg" alt="Giao diện đổi mật khẩu" style="max-width:100%; height:auto; border-radius:8px; margin-top:10px;" />
+      
+        <p>Hãy thay đổi mật khẩu định kỳ để nâng cao tính bảo mật và bảo vệ tài khoản của bạn.</p>
+      </section>
+      
+</main>
+
+<script>
+  const links = document.querySelectorAll('nav ul li a');
+  const sections = document.querySelectorAll('main .section');
+
+  links.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+
+      // Xóa active của tất cả link
+      links.forEach(l => l.classList.remove('active'));
+      // Ẩn tất cả section
+      sections.forEach(sec => sec.style.display = 'none');
+
+      // Thêm active cho link vừa click
+      link.classList.add('active');
+      // Hiện section tương ứng
+      const id = link.getAttribute('data-section');
+      document.getElementById(id).style.display = 'block';
+    });
+  });
+</script>
+
+</body>
+</html>
